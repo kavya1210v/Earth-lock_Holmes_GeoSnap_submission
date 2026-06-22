@@ -1,5 +1,4 @@
-# GeoSnap
-Land-Use Classification & Explainability from Space
+# GeoSnap Land-Use Classification & Explainability from Space
 Team - Earth-lock Holmes 
 ---
 ## Overview
