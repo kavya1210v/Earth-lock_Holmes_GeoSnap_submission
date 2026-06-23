@@ -43,7 +43,6 @@ Earth-lock_Holmes_GeoSnap_submission/
 ├── GeoSnap - Report.pdf
 │
 ├── GeoSnap-PS/
-│   └── (Place the downloaded EuroSAT dataset here)
 │
 ├── Task-1/
 │   ├── Model/
@@ -69,7 +68,7 @@ Earth-lock_Holmes_GeoSnap_submission/
 |-------------|-------------|
 | **README.md** | Documentation describing the project, setup instructions, dataset structure, methodology, and usage. |
 | **GeoSnap - Report.pdf** | Final project report containing methodology, experiments, results, and analysis. |
-| **GeoSnap-PS/** | Directory for the EuroSAT dataset. Download the dataset separately using the provided link and place it here. |
+| **GeoSnap-PS** | Problem Statement |
 | **Task-1/** | Contains the image classification implementation for both RGB and multispectral datasets. |
 | **Task-1/Model/** | Stores the best-performing trained model checkpoints. |
 | **Task-1/Pipeline/** | Jupyter notebooks implementing the complete training, validation, and testing pipelines for RGB and multispectral classification. |
@@ -82,7 +81,7 @@ Due to the dataset size, it is not included in this repository.
 Download the dataset from:
 >  https://drive.google.com/file/d/12qKiJRq6k9ePPBU7AjGjeUSmC7U6ZtrK/view?usp=sharing
 
-After downloading, extract the contents into the `GeoSnap-PS/` directory so that the folder structure matches the one described in the **Dataset Structure** section.
+After downloading, extract the contents into a seperate directory.
 ---
 
 ## Requirements
@@ -94,7 +93,8 @@ After downloading, extract the contents into the `GeoSnap-PS/` directory so that
 - Git (optional)
 
 ### Installation
-
+Download the notebooks from GitHub
+or
 Clone the repository:
 
 ```bash
@@ -252,6 +252,6 @@ For a comprehensive discussion of the implementation, results, and analysis, ple
 ## Authors
 ### **Team:** Earth-lock Holmes
 
-- **Member 1** – V.Kavyanjali
+- **Member 1** – V Kavyanjali
 - **Member 2** – Avani Kasar
 
