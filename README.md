@@ -40,7 +40,7 @@ Input Types:
 Earth-lock_Holmes_GeoSnap_submission/
 │
 ├── README.md
-├── Report.pdf
+├── GeoSnap - Report.pdf
 │
 ├── GeoSnap-PS/
 │   └── (Place the downloaded EuroSAT dataset here)
