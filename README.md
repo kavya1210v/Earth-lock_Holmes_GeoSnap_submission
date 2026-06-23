@@ -85,7 +85,7 @@ Download the dataset from:
 After downloading, extract the contents into the `GeoSnap-PS/` directory so that the folder structure matches the one described in the **Dataset Structure** section.
 ---
 
-## 📋 Requirements
+## Requirements
 
 ### Software Requirements
 
@@ -105,7 +105,7 @@ cd Earth-lock_Holmes_GeoSnap_submission
 Install the required dependencies:
 
 ```bash
-pip install torch torchvision torchaudio numpy pandas matplotlib seaborn scikit-learn opencv-python Pillow tqdm rasterio scipy shap grad-cam notebook
+pip install torch torchvision torchaudio numpy pandas matplotlib seaborn scikit-learn opencv-python Pillow tqdm rasterio scipy shap grad-cam notebook timm
 ```
 
 ### Python Libraries
@@ -125,8 +125,9 @@ pip install torch torchvision torchaudio numpy pandas matplotlib seaborn scikit-
 | `rasterio` | Reading multispectral satellite imagery |
 | `scipy` | Scientific computing utilities |
 | `shap` | Model explainability |
-| `grad-cam` | Visual explanation of CNN predictions |
+| `grad-cam(pytorch_grad_cam)` | Grad-CAM visual explanation of CNN predictions |
 | `notebook` | Running Jupyter notebooks |
+| `timm` | Used to instantiate the ResNet-18 architecture and load pretrained model weights |
 
 ### Hardware Requirements
 
@@ -171,7 +172,6 @@ Task-1/Pipeline/multispectral_classification.ipynb
 
 This notebook performs:
 - Multispectral dataset loading
-- Data preprocessing
 - Model training and validation
 - Model evaluation
 - Prediction generation
@@ -217,7 +217,7 @@ Task-1/
 
 ## Results and Report
 
-The complete methodology, model architectures, training procedure, evaluation metrics, experimental analysis, explainability studies, and performance comparison for both the RGB and multispectral classification models are documented in detail in the accompanying project report (`Report.pdf`).
+The complete methodology, model architectures, training procedure, evaluation metrics, experimental analysis, explainability studies, and performance comparison for both the RGB and multispectral classification models are documented in detail in the accompanying project report (`GeoSnap - Report.pdf`).
 
 For a comprehensive discussion of the implementation, results, and analysis, please refer to the report.
 
