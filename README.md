@@ -253,7 +253,7 @@ For a comprehensive discussion of the implementation, results, and analysis, ple
 ### **Team:** Earth-lock Holmes
 
 - **Member 1** – V.Kavyanjali
-  -> Email: mc25bt029.iitdh.ac.in
+  -> Email: mc25bt029@iitdh.ac.in
 - **Member 2** – Avani Kasar
   -> Email: mc25bt027@iitdh.ac.in
 
