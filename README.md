@@ -68,7 +68,7 @@ Earth-lock_Holmes_GeoSnap_submission/
 | Folder/File | Description |
 |-------------|-------------|
 | **README.md** | Documentation describing the project, setup instructions, dataset structure, methodology, and usage. |
-| **Report.pdf** | Final project report containing methodology, experiments, results, and analysis. |
+| **GeoSnap - Report.pdf** | Final project report containing methodology, experiments, results, and analysis. |
 | **GeoSnap-PS/** | Directory for the EuroSAT dataset. Download the dataset separately using the provided link and place it here. |
 | **Task-1/** | Contains the image classification implementation for both RGB and multispectral datasets. |
 | **Task-1/Model/** | Stores the best-performing trained model checkpoints. |
