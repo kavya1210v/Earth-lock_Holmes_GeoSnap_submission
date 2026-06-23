@@ -34,7 +34,7 @@ Input Types:
 - RGB images (64×64)
 - 13-band Sentinel-2 multispectral imagery
 ---
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Earth-lock_Holmes_GeoSnap_submission/
@@ -215,13 +215,13 @@ Task-1/
 
 > **Note:** If the trained model weights are already available in the `Model/` folder, you can skip the training phase and directly run the evaluation or explainability notebooks.
 
-## 📊 Results and Report
+## Results and Report
 
 The complete methodology, model architectures, training procedure, evaluation metrics, experimental analysis, explainability studies, and performance comparison for both the RGB and multispectral classification models are documented in detail in the accompanying project report (`Report.pdf`).
 
 For a comprehensive discussion of the implementation, results, and analysis, please refer to the report.
 
-## 📚 References
+## References
 
 1. Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). *EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification*. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing.
 
@@ -249,7 +249,7 @@ For a comprehensive discussion of the implementation, results, and analysis, ple
 9. OpenCV Documentation:
    https://docs.opencv.org/
 
-## 👥 Authors
+## Authors
 ### **Team:** Earth-lock Holmes
 
 - **Member 1** – V.Kavyanjali
